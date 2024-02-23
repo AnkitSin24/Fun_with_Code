@@ -1,9 +1,13 @@
-Python:
+ ## Let's create a simple loop that counts from 1 to 10 and prints the numbers in various 
+    programming languages:##
+-----------------------------------------------------------------------------------------------
+
+1. Python:
 for i in range(1, 11):
     print(i)
 
 
-Java:
+2. Java:
 public class NumberLoop {
     public static void main(String[] args) {
         for (int i = 1; i <= 10; i++) {
@@ -12,13 +16,13 @@ public class NumberLoop {
     }
 }
 
-JavaScript:
+3. JavaScript:
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
 
 
-C:
+4. C:
 #include <stdio.h>
 int main() {
     for (int i = 1; i <= 10; i++) {
@@ -28,7 +32,7 @@ int main() {
 }
 
 
-C++:
+5. C++:
 #include <iostream>
 int main() {
     for (int i = 1; i <= 10; i++) {
@@ -37,13 +41,13 @@ int main() {
     return 0;
 }
 
-Ruby:
+6. Ruby:
 (1..10).each do |i|
     puts i
 end
 
 
-Go:
+7. Go:
 package main
 import "fmt"
 func main() {
@@ -52,7 +56,7 @@ func main() {
     }
 }
 
-PHP:
+8. PHP:
 <?php
 for ($i = 1; $i <= 10; $i++) {
     echo $i . "\n";
@@ -60,13 +64,13 @@ for ($i = 1; $i <= 10; $i++) {
 ?>
 
 
-Perl:
+9. Perl:
 for my $i (1..10) {
     print "$i\n";
 }
 
 
-Kotlin:
+10. Kotlin:
 fun main() {
     for (i in 1..10) {
         println(i)
